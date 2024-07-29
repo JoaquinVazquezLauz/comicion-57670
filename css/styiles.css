@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 
@@ -133,8 +134,8 @@ ul li a{
 }
 
 .index-s4 article{
-    width: 30% ;
-    height:100% ;
+    width: 600px ;
+    height:700px ;
 }
 
 .cont-img4{
@@ -171,7 +172,7 @@ ul li a{
 
 .index-s5{
     width: 100%;
-    height: 47.1875rem;
+    height: 1000px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -191,14 +192,17 @@ ul li a{
 
 .index-s5 article{
     width: 600px;
-    height: 600px;
+    height: 800px;
     margin-top: 100px;
 }
+
+
 /* index section 6 y minisection*/
 
 .index-s6{
     display: flex;
     width: 100%;
+
     height: 10rem;
     justify-content: space-around;
     margin-top: 125px;
@@ -223,6 +227,7 @@ ul li a{
 
 .mini-sec6 p{
     width: 275px;
+    
 }
 
 /*footer :)*/
@@ -394,6 +399,7 @@ h2{
     justify-content: center;
     align-content: center;
     margin-bottom: 15px;
+    flex-wrap: wrap;
 }
 
 .card-h3 h3{
@@ -407,6 +413,7 @@ h2{
     border-radius: 18px;
     border: 2px solid black;
     align-self: flex-start;
+    flex-wrap: wrap;
 }
 
 .card .card-img{
@@ -421,14 +428,20 @@ h2{
 }
 
 .card .card-info{
-    width: 450px;
+    width: 300px;
     height: 150px;
-    align-content: space-between;
-    display: block;
+    justify-content: flex-end;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-info p{
+    font-size: 12px;
+    margin-bottom: 0;
 }
 
 .card button{
-    margin-left: 300px;
+    
     border-radius: 4px;
 }
 
@@ -979,8 +992,8 @@ p{
     }
 
     .card-2 .c2-img {
-        width: 100px;
-        height: 100px;
+        width: 175px;
+        height: 175px;
     }
 
     .shop-s3 {

@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+    border: solid 1px red;
 }
 
 
@@ -736,6 +736,10 @@ h2{
     border-radius: 12px;
 }
 
+    .rash{
+        margin-bottom: 50px;
+    }
+
 .shop-s3 {
     width: 100%;
     height: 500px;
@@ -1115,7 +1119,7 @@ p{
     }
 
     main .inter-s1{
-        height: 800px;
+        height: 900px;
         gap: 50px;
     }
 
